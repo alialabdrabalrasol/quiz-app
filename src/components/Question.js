@@ -11,7 +11,6 @@ const Question = ({ question, score, setScore }) => {
   };
   const checkAnswer = e => {
     if (e.target.value === ca) {
-      console.log('correct');
       setScore(score + 1);
     } else {
       setScore(score);
